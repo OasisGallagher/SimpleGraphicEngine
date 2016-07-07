@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="engine">
+      <UniqueIdentifier>{61ecf43a-9959-42e1-901a-a63361b78b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\include">
+      <UniqueIdentifier>{7b13e5f1-c3e9-4eb4-83d2-b38aad8e656b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\src">
+      <UniqueIdentifier>{c2d9c2e3-050f-4bce-bf45-abc6ab5a4bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="solution">
+      <UniqueIdentifier>{95e93233-2b27-4d1a-8c71-a6300a53081a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="engine\src\camera.cpp">
+      <Filter>engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\src\graphics.cpp">
+      <Filter>engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\src\linepainter.cpp">
+      <Filter>engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\src\matrix.cpp">
+      <Filter>engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\src\object.cpp">
+      <Filter>engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\src\triangle.cpp">
+      <Filter>engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\src\vector3.cpp">
+      <Filter>engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\src\vertex.cpp">
+      <Filter>engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\src\transformation.cpp">
+      <Filter>engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\src\light.cpp">
+      <Filter>engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\src\renderlist.cpp">
+      <Filter>engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\src\memdc.cpp">
+      <Filter>engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="solution\main.cpp">
+      <Filter>solution</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine\include\camera.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\include\gdef.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\include\graphics.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\include\linepainter.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\include\matrix.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\include\object.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\include\triangle.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\include\utility.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\include\vector3.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\include\vertex.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\include\transformation.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\include\renderlist.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\include\light.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\include\types.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\include\memdc.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\include\zbuffer.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\include\texture.h">
+      <Filter>engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\cube.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
